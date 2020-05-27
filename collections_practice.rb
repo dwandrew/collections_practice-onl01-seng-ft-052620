@@ -15,3 +15,15 @@ end
 def swap_elements(array)
   array[]
 end
+
+def reverse_array(array)
+  array.reverse;
+end
+
+def kesha_maker(array)
+  kesha =[]
+  array.each{|word| kesha<< word[2]==$}
+  puts kesha
+  kesha
+  
+end
