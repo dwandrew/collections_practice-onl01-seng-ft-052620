@@ -39,5 +39,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  puts array.each_with_index{|word, i| word << 's' if i!=1}.map{|w| w}
+  array.each_with_index{|word, i| word << 's' if i!=1}.map{|w| w}
 end
