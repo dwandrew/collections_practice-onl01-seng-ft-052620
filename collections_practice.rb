@@ -26,7 +26,7 @@ end
 
 def kesha_maker(array)
   kesha =[]
-  array.each{|word| word[2]='$'; kesha << word}
+  array.each{|word| puts word[2]='$'}
   puts kesha
   kesha
   
